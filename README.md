@@ -8,7 +8,7 @@ Uses Google OAuth2 API to authenticate user and get their profile.
  1. Create a file `auth.php` in the root of your web server
  1. Put this code:
 
-    ```php
+```php
 <?php
 
 session_start();
