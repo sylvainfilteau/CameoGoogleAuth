@@ -1,0 +1,21 @@
+{
+	"name": "cameo/googleauth",
+	"description": "Authentication to Google library",
+    "keywords": ["google", "authentication", "oauth2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvain Filteau",
+            "email": "cidsphere@gmail.com",
+            "homepage": "https://github.com/sylvainfilteau"
+        }
+    ],
+	"require": {
+		"guzzle/http": "~3.7"
+	},
+	"autoload": {
+		"psr-0": {
+			"Cameo\\GoogleAuth": "src/"
+		}
+	}
+}
