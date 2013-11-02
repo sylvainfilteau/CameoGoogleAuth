@@ -7,6 +7,7 @@ Uses Google OAuth2 API to authenticate user and get their profile.
  1. Acquire an API access in the Google API Console (https://code.google.com/apis/console/)
  1. Create a file `auth.php` in the root of your web server
  1. Put this code:
+
     <?php
 
     session_start();
@@ -26,6 +27,7 @@ Uses Google OAuth2 API to authenticate user and get their profile.
 	    $profile = $session->getProfile();
 	    var_dump($profile);
     }
+    
  1. Goto to http://localhost:8000/auth.php in your browser
  1. Enjoy!
 
